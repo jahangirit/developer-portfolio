@@ -93,6 +93,8 @@ main{
 .section-title{
    
     margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700px;
 
 }
 
@@ -101,5 +103,25 @@ main{
     font-size: 18px;
     margin-bottom: 30px;
 
+
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about .info-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400px;
+
+}
+
+.info-description{
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700px;
 
 }
