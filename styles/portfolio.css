@@ -231,7 +231,15 @@ input{
 }
 
 .contact a{
-    margin-top: 20px;
+  
     text-decoration: none;
-    word-spacing: 10px;
+   
+}
+    
+    
+#ficon{
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+
 }
