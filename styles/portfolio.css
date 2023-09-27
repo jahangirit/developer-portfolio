@@ -47,6 +47,8 @@ nav li{
 }
 
 
+
+
 /* banner styles */
 .banner{
     display: flex;
@@ -192,5 +194,44 @@ section{
     font-size: 16px;
     font-weight: 400;
     
+}
 
+.resume-btn{
+    margin: 50px;
+    text-align: center;
+}
+
+/* contact section */
+
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    /* justify-content: space-around; */
+
+}
+
+.contact .contact-title{
+
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+
+input{
+    height: 64px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a{
+    margin-top: 20px;
+    text-decoration: none;
+    word-spacing: 10px;
 }
