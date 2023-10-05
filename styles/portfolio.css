@@ -265,15 +265,12 @@ input{
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+        padding-left: 20px;
     }
 
     nav li{
         margin-left: 0px;
     }
-
-    /* .banner{
-        margin: 0 20px;
-    } */
 
     .banner{
         margin: 0 20px;
