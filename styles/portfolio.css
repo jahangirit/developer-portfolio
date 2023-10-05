@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 0px;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -10,6 +10,8 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    /* margin-top: -50px; */
+  
 }
 
 nav{
@@ -46,6 +48,12 @@ nav li{
     padding: 18px 35px;
 }
 
+#photo1{
+    height: 100%;
+    width: 100%;
+    margin-bottom: -60px;
+}
+
 
 
 
@@ -53,7 +61,7 @@ nav li{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 100px 200px;
+    margin: 0 90px;
 
 }
 .banner-title{
@@ -243,3 +251,83 @@ input{
     gap: 20px;
 
 }
+
+/* Responsive area */
+
+@media screen and (max-width: 576px) {
+
+    .header{
+        background-image: none;
+    }
+
+    nav, .banner, .skills-container, .resume-content, .about-info-container, .contact{
+        flex-direction: column;
+        padding: 10px 20px;
+        
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    nav li{
+        margin-left: 0px;
+    }
+
+    /* .banner{
+        margin: 0 20px;
+    } */
+
+    .banner{
+        margin: 0 20px;
+    }
+
+    .banner img{
+        width: 100%;
+    }
+
+    .about, .contact {
+        padding: 20px;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea {
+        padding: 0 0 0 5px;
+    }
+    
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px){
+
+    .skills-container, .about-info-container{
+        
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .about, .contact {
+        padding: 20px;
+    }
+
+    .contact, .banner{
+        flex-direction: column;
+    }
+
+    .contact input[type="text"], input[type="email"], textarea {
+        padding: 0 0 0 5px;
+    }
+
+    .resume-content{
+        padding: 0 0 0 10px;
+    }
+
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+    
+}
+
